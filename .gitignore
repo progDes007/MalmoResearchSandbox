@@ -1,0 +1,5 @@
+SandboxUI/GeneratedFiles/
+SandboxUI/x64/
+SandboxUI/Win32
+.vs/
+*.user
