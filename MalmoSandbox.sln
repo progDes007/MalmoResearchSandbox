@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SandboxUI", "SandboxUI\SandboxUI.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E822AF13-9674-47C3-AB44-DF1712E7403F} = {E822AF13-9674-47C3-AB44-DF1712E7403F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Agent", "Agent\Agent.vcxproj", "{E822AF13-9674-47C3-AB44-DF1712E7403F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.Build.0 = Debug|x64
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.ActiveCfg = Release|x64
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.Build.0 = Release|x64
+		{E822AF13-9674-47C3-AB44-DF1712E7403F}.Debug|x64.ActiveCfg = Debug|x64
+		{E822AF13-9674-47C3-AB44-DF1712E7403F}.Debug|x64.Build.0 = Debug|x64
+		{E822AF13-9674-47C3-AB44-DF1712E7403F}.Release|x64.ActiveCfg = Release|x64
+		{E822AF13-9674-47C3-AB44-DF1712E7403F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

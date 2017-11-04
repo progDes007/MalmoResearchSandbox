@@ -9,7 +9,9 @@ class SandboxMainWindow : public QMainWindow
 
 public:
 	SandboxMainWindow(QWidget *parent = Q_NULLPTR);
-
+	virtual ~SandboxMainWindow();
 private:
+	struct Impl;
 	Ui::SandboxMainWindowClass ui;
+	std::unique_ptr<Impl> m_impl;
 };
