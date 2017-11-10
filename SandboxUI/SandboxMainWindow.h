@@ -10,6 +10,8 @@ class SandboxMainWindow : public QMainWindow
 public:
 	SandboxMainWindow(QWidget *parent = Q_NULLPTR);
 	virtual ~SandboxMainWindow();
+protected slots:
+	void onTest1();
 private:
 	struct Impl;
 	Ui::SandboxMainWindowClass ui;
