@@ -1,7 +1,7 @@
 #include "Internal.h"
 #include "SandboxMainWindow.h"
+#include "Missions.h"
 
-#include <Agent/AgentWorker.h>
 
 
 struct SandboxMainWindow::Impl 
@@ -40,6 +40,6 @@ void SandboxMainWindow::onTest1()
 {
 	m_impl->killCurrentAgent();
 
-	m_impl->m_currentAgentWorker.reset(new AgentWorker());
+	m_impl->m_currentAgentWorker = Missions::createMission1();
 	m_impl->m_currentAgentWorker->startAsync();
 }

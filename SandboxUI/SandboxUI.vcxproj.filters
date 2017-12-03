@@ -48,6 +48,9 @@
     <ClCompile Include="Internal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Missions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="SandboxMainWindow.h">
@@ -65,6 +68,9 @@
       <Filter>Generated Files</Filter>
     </ClInclude>
     <ClInclude Include="Internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Missions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
